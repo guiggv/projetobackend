@@ -32,7 +32,7 @@
                         <td><input type="submit" class="button button1" value="Entrar"></td></br>
             </form>
         </section>
-                <p><a href="3-cadastro.html"><b>Novo cadastro</b></a></p>
+                <p><a href="3-cadastro.php"><b>Novo cadastro</b></a></p>
                 <p></p>
                 <p><a href="#"><b>Esqueci minha senha</b></a></p>
         </div>
