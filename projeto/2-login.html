@@ -5,6 +5,8 @@
         <meta name="viewport" content="width=device-width, inicial-scale=1.0">
         <title>Pagina Login</title>
         <link href="estilos/telecall.css" rel="stylesheet" type="text/css">
+        <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css"
+        integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
         <script type="text/Javascript" src="script/login.js"></script>
     </head>
     <body>
@@ -13,32 +15,24 @@
 
         <p></p>
 
-        <div class="container">
-
-        <section>    
+        <div class="container w-50 p-10 text-center align-middle">    
             <form action="#" method="post" onsubmit="return validarDados();">
 
                 <legend><b>Seja bem vindo</b></legend>
-                <p></p>
-
-                <fieldset>
                     <legend>Área de Acesso</legend>
-
-                        <label for="fname">Login</label>
-                            <input class="alinhamento-direita" id="fname" type="text" size="10" maxlength="8" placeholder="Digite o login"></br>
+                        <label for="fname">Login:</label> </br>
+                            <input class="text-center" id="fname" type="text" size="10" maxlength="8" placeholder="Digite o login"></br>
                         <P></P>
 
-                        <label for="fsenha">Senha</label>
-                            <input class="alinhamento-direita" id="fsenha" type="password" size="10" maxlength="8" id="senha" placeholder="Digite a senha"></br>    
+                        <label for="fsenha">Senha:</label> </br>
+                            <input class="text-center" id="fsenha" type="password" size="10" maxlength="8" id="senha" placeholder="Digite a senha"></br>    
                         <p></p>
 
                     <div id="enter">
                         <td><input type="submit" class="button button1" value="Entrar"></td></br>
-                    </div>
-                </fieldset>
             </form>
         </section>
-                <p><a href="#"><b>Novo cadastro</b></a></p>
+                <p><a href="3-cadastro.html"><b>Novo cadastro</b></a></p>
                 <p></p>
                 <p><a href="#"><b>Esqueci minha senha</b></a></p>
         </div>
