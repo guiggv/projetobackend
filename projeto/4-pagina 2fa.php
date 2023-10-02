@@ -18,23 +18,29 @@
         <div class="container w-50 p-10 text-center align-middle">    
             <form action="#" method="post" onsubmit="return validarDados();">
 
-                <legend><b>Seja bem vindo</b></legend>
-                    <legend>Área de Acesso</legend>
-                        <label for="fname">Login:</label> </br>
-                            <input class="text-center" id="fname" type="text" size="10" maxlength="8" placeholder="Digite o login"></br>
-                        <P></P>
+                <legend><b>Autenticação de Dois Fatores</b></legend>
+                    <legend>Escolha um metodo de verificação:</legend> <p></p> </br>
 
-                        <label for="fsenha">Senha:</label> </br>
-                            <input class="text-center" id="fsenha" type="password" size="10" maxlength="8" id="senha" placeholder="Digite a senha"></br>    
-                        <p></p>
+                    <div class="form-check form-check-inline">
+                        <input  class="btn-check" type="radio" name="2faSMS" id="2faEmail" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="2faEmail">
+                         E-mail
+                     </label> 
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input  class="btn-check" type="radio" name="2faSMS" id="2faSMS" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="2faSMS">
+                        SMS
+                     </label> 
+                    </div>
+                    <p></p>
 
                     <div id="enter">
-                        <td><input type="submit" class="button button1" value="Entrar"></td></br>
+                        <td><input type="submit" class="button button1" value="Prosseguir"></td></br>
             </form>
         </section>
-                <p><a href="3-cadastro.php"><b>Retornar</b></a></p>
+                <p><a href="2-login.php"><b>Retornar</b></a></p>
                 <p></p>
-                <p><a href="#"><b>Esqueci minha senha</b></a></p>
         </div>
         <p></p>
         <p></p>
