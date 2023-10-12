@@ -18,21 +18,15 @@
         <div class="container w-50 p-10 text-center align-middle">    
             <form action="#" method="post" onsubmit="return validarDados();">
 
-                <legend><b>Autenticação de Dois Fatores</b></legend>
+                <legend><b>Alteração de Senha</b></legend>
                     <legend>Escolha um metodo de verificação:</legend> <p></p> </br>
 
-                    <div class="form-check form-check-inline">
-                        <input  class="btn-check" type="radio" name="2faSMS" id="2faEmail" autocomplete="off">
-                        <label class="btn btn-outline-primary" for="2faEmail">
-                         E-mail
-                     </label> 
-                    </div>
-                    <div class="form-check form-check-inline">
-                        <input  class="btn-check" type="radio" name="2faSMS" id="2faSMS" autocomplete="off">
-                        <label class="btn btn-outline-primary" for="2faSMS">
-                        SMS
-                     </label> 
-                    </div>
+                    <label for="asenha">Senha atual:</label> </br>
+                        <input class="text-center" id="asenha" type="password" size="10" maxlength="8" id="senha" placeholder="Digite a senha atual."></br>    
+                    <p></p>
+
+                    <label for="asenha">Senha nova:</label> </br>
+                        <input class="text-center" id="asenha" type="password" size="10" maxlength="8" id="senha" placeholder="Digite a senha desejada."></br>    
                     <p></p>
 
                     <div id="enter">
