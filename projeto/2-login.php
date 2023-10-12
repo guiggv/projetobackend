@@ -11,7 +11,7 @@
     </head>
     <body>
 
-        <a href="1-pagina inicial.html"><img id="imgmodavo" src="img/modavologo2.png" width="200"/></a>
+        <p> <a href="1-pagina inicial.html"><img id="telecall" src="img/logo.png" width="300"/></a> </p>
 
         <p></p>
 

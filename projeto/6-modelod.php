@@ -28,7 +28,7 @@
                         <a class="nav-link" href="">Consulta de Usuário</a>
                     </li>
                     <li class="nav-item active">
-                        <a class="nav-link" href="6-modelod.php">Modelo do DB</a>
+                        <a class="nav-link" href="6-google ver calls.html">Modelo do DB</a>
                     </li>
                     <li> 
                         <button class="btn btn-danger" type="button" onclick="sair()">Sair</button>
@@ -41,8 +41,13 @@
     </header>
 
     <div class="container w-50 p-10 text-center align-middle">   
-        <h1> Centro Telecall</h1>
-        <img class="img-fluid"  src="img/call.jpg" alt="centro">
+        <h1> Modelo de Banco de Dados</h1>
+        <br>
+        <h2> Modelo de Relacionamento De Entidade
+        <img class="img-fluid"  src="img/modeloER.png" alt="centro">
+        <h2> Modelo Lógico </h2>
+        <img class="img-fluid"  src="img/modelologico.png" alt="modelologico">
+
     </div>
     <footer>
         <img id="imglogo" src="img/logo.png" width="80"/>

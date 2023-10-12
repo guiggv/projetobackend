@@ -12,7 +12,7 @@
         <script type="text/Javascript" src="script/cadastro.js"></script>
     </head>
     <body>
-        <img id="imgmodavo" src="img/modavologo2.png" width="200"/>
+       <p> <a href="1-pagina inicial.html"><img id="telecall" src="img/logo.png" width="300"/></a>  </br> </p>
         <div class="container w-70 p-5">
             <h3>Formulário de Cadastro</h3>
             <form name="form" method="post" action="#" onsubmit="validarLogin()">
@@ -35,10 +35,10 @@
                 <div class="form-row">Sexo: </div> 
                     <div class="form-row">
                         <div class="form-radio-inline">
-                            <input type="radio" class="form-radio-input" id="sexo" name="optSexo"><label class="form-radio-label" for="sexo">Masculino </label>
+                            <input type="radio" class="form-radio-input" id="sexo" name="optSexo"><label class="form-radio-label" for="sexo">Masculino  </label>
                         </div>
                         <div class="form-radio-inline">
-                            <input type="radio" class="form-radio-input" id="sexo" name="optSexo"><label class="form-radio-label" for="sexo">Feminino </label>
+                            <input type="radio" class="form-radio-input" id="sexo" name="optSexo"><label class="form-radio-label" for="sexo">Feminino  </label>
                         </div>
                     </div>
                 <div class="form-row">

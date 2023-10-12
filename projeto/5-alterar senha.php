@@ -19,10 +19,21 @@
             <form action="#" method="post" onsubmit="return validarDados();">
 
                 <legend><b>Autenticação de Dois Fatores</b></legend>
-                    <legend>Responda a pergunta:</legend> <p></p> </br>
-                    <label for="fperg">Qual o nome da sua mãe?</label> </br>
-                            <input class="text-center" id="fperg" type="text" placeholder="Digite a resposta"></br>    
-                        <p></p>
+                    <legend>Escolha um metodo de verificação:</legend> <p></p> </br>
+
+                    <div class="form-check form-check-inline">
+                        <input  class="btn-check" type="radio" name="2faSMS" id="2faEmail" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="2faEmail">
+                         E-mail
+                     </label> 
+                    </div>
+                    <div class="form-check form-check-inline">
+                        <input  class="btn-check" type="radio" name="2faSMS" id="2faSMS" autocomplete="off">
+                        <label class="btn btn-outline-primary" for="2faSMS">
+                        SMS
+                     </label> 
+                    </div>
+                    <p></p>
 
                     <div id="enter">
                         <td><input type="submit" class="button button1" value="Prosseguir"></td></br>
